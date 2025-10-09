@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews - Hager Bet Restaurant</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="myversion.html">HAGER BET</a>
+      <ul class="nav-links">
+        <li><a href="myversion.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+        <li><a href="review.html" class="active">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section">
+    <h1>REVIEWS</h1>
+    <p class="subtitle">From our clients</p>
+
+    <div class="reviews-container" id="reviews-list">
+      <!-- Example Review -->
+      <div class="review-card">
+        <div class="review-content">
+          <h3>Claudia Alves</h3>
+          <div class="stars">★★★★★</div>
+          <p>Thank you for the fast delivery and quality product!</p>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-content">
+          <h3>Olivia Wilson</h3>
+          <div class="stars">★★★★★</div>
+          <p>It is very pleasant to use the means of your brand.</p>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-content">
+          <h3>Juliana Silva</h3>
+          <div class="stars">★★★★★</div>
+          <p>Thank you very much! I really liked everything!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Form -->
+  <section class="review-form-section">
+    <h2>Leave a Review</h2>
+    <form id="review-form">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <textarea id="message" placeholder="Write your review..." required></textarea>
+
+      <!-- Star Rating -->
+      <div class="star-rating" id="star-rating">
+        <span data-value="1">★</span>
+        <span data-value="2">★</span>
+        <span data-value="3">★</span>
+        <span data-value="4">★</span>
+        <span data-value="5">★</span>
+      </div>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <script src="review.js"></script>
+</body>
+</html>
